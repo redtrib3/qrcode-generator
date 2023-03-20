@@ -2,7 +2,7 @@
 
 QR-code generator website that can generate qr-code with custom colors
 
-##URL: https://redtrib3.github.io/qrcode-generator/
+## URL: https://redtrib3.github.io/qrcode-generator/
 
 
 frontend : HTML, CSS, Javascript
