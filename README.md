@@ -5,8 +5,8 @@ QR-code generator website that can generate qr-code with custom colors
 ## URL: https://redtrib3.github.io/qrcode-generator/
 
 
-frontend : HTML, CSS, Javascript
-Backend: FastApi
+Stack: HTML, CSS, Javascript, FastApi-python
+
 
 <p align="left">
   <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" width="40" height="40" alt="html"/>
