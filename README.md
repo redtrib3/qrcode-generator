@@ -16,5 +16,5 @@ Stack: HTML, CSS, Javascript, FastApi-python
 </p>
 
 <div align="center">
-<i> API hosted in [Deta space](https://deta.space) <3 </i> 
+  <i> API hosted in <a href="https://deta.space">Deta space</a> <3 </i> 
 </div>
