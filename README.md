@@ -14,3 +14,6 @@ Stack: HTML, CSS, Javascript, FastApi-python
   <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" width="40" height="40" alt="js"/>
   <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="40" height="40" alt="py"/>
 </p>
+
+
+#### </i> API hosted in deta space  <3 </i>
