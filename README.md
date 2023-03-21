@@ -16,4 +16,4 @@ Stack: HTML, CSS, Javascript, FastApi-python
 </p>
 
 
-#### </i> API hosted in deta space  <3 </i>
+<i> API hosted in [Deta space](https://deta.space) <3 </i> 
