@@ -5,12 +5,6 @@ function getQrCode() {
     const fgColor = document.getElementById("fgDropdown").value;
     const bgColor = document.getElementById("bgDropdown").value;
 
-    const urlParam = encodeURIComponent(userInput);
-    const getUrl = `https://qrcode-1-j5807843.deta.app/qrcode?site=${urlParam}&fg=${fgColor}&bg=${bgColor}`;
-    
-    var imgElement = document.getElementById("imghold");
-    var downloadBtn = document.getElementById("download-btn");
-    
     if ( userInput ===  "")
     {
         alert("Please provide the required field : URL/string");
@@ -22,7 +16,14 @@ function getQrCode() {
         userInput = userInput.substring(0,200);
         alert("More than 200 characters detected. Truncated to first 200 characters");
     }
+
+    const urlParam = encodeURIComponent(userInput);
+    const getUrl = `https://qrcode-1-j5807843.deta.app/qrcode?site=${urlParam}&fg=${fgColor}&bg=${bgColor}`;
     
+    var imgElement = document.getElementById("imghold");
+    var downloadBtn = document.getElementById("download-btn");
+    
+
     // show the the image and add img link to dl button.
     imgElement.src = getUrl;
     downloadBtn.querySelector("a").href = getUrl + '&download=y';
@@ -30,6 +31,8 @@ function getQrCode() {
     //unhide the img element and its download btn
     imgElement.style.display = 'block'; 
     downloadBtn.style.display = 'block';
+    
+
 
 }
 
@@ -46,3 +49,5 @@ function toggleAccordion(accordion) {
   }
   
 }
+
+
