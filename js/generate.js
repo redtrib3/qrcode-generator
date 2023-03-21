@@ -23,13 +23,14 @@ function getQrCode() {
         alert("More than 200 characters detected. Truncated to first 200 characters");
     }
     
+    // show the the image and add img link to dl button.
+    imgElement.src = getUrl;
+    downloadBtn.querySelector("a").href = getUrl + '&download=y';
+        
     //unhide the img element and its download btn
     imgElement.style.display = 'block'; 
     downloadBtn.style.display = 'block';
 
-    // show the image
-    imgElement.src = getUrl;
-    downloadBtn.querySelector("a").href = getUrl + '&download=y';
 }
 
 // function to toggle accordions for color selection
